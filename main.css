@@ -232,7 +232,7 @@ p{
     height: 65%!important;
     align-content: center;
 }
-.card-title{
+.card-title, .ty{
     color: #f9bc50;
 }
 .card-text{
@@ -243,6 +243,70 @@ p{
     background: #f9bc50!important;
     color: black!important;
     border: none !important;
+}
+
+.contact{
+    background: rgb(241, 241, 241)!important;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: space-evenly;    
+    
+}
+
+.contact-card{
+    
+    text-align: center;
+    padding: 1rem;
+    width: 250px;
+    
+}
+.contact-card a{
+    text-decoration: none;
+    color: black;
+}
+#contact .contact-card:hover i,#contact .contact-card:hover h4{
+	color: #f9bc50
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.logo-footer{
+    margin-top: 1rem;
+}
+.social-footer{
+    margin-bottom: 1rem;
+}
+.social-footer i{
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+.social-footer i:hover{
+    color: #f9bc50;
+}
+.footer-container a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2rem;
+}
+.footer-container a:hover{
+    color: #f9bc50;
+}
+.contact-info-footer{
+    margin-top: 1rem;
+}
+.btn{
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
 }
 .timeline {
     list-style: none;
